@@ -1,2 +1,2 @@
-FROM tomcat:latest
-ADD . /usr/local/tomcat/webapps/apm/
+FROM nodejs:latest
+ADD . /usr/local/tomcat/webapps/apm/ ?
