@@ -2,7 +2,7 @@ FROM node:latest
 ENV HTTP_PORT 8000
 COPY . /app  
 WORKDIR /app
-RUN npm install --python=python2.7
+RUN yum -help
 RUN npm install
 RUN npm run build
 EXPOSE 8000
