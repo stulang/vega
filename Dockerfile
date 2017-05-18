@@ -5,4 +5,4 @@ WORKDIR /app
 RUN npm install
 RUN npm run build
 EXPOSE 8000
-CMD ["node server.js"]  
+CMD ["node","server.js"]  
